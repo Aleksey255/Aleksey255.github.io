@@ -6,6 +6,8 @@ const App = () => {
   
   return (
     <div>
+      <h1>Pokemon Game</h1>
+      <p>Нажимайте на картинки чтобы заработать очки, но нельзя нажиать на одну и ту же картинку дважды</p>
      <PokemonImages pokemons={pokemons} />
     </div>
   );
